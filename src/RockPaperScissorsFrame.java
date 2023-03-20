@@ -77,6 +77,7 @@ public class RockPaperScissorsFrame extends JFrame {
 
 
         quitBtn = new JButton("Quit");
+        quitBtn.setIcon(new ImageIcon(new ImageIcon("src//quit.png").getImage().getScaledInstance(200, 200, Image.SCALE_DEFAULT)));
         quitBtn.setFont(new Font(Font.MONOSPACED, Font.ITALIC, 15));
         quitBtn.addActionListener((ActionEvent ae) -> System.exit(0));
 
